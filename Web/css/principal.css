@@ -123,6 +123,48 @@ input.password{
   line-height: 26.4px;
   color: #F4C4B7;
 }
+@media screen and (max-width: 1400px){
+  body{
+    width: 100%;
+  }
+  .titulo{
+    width: 70%;
+    height: 70%;
+  }
+  .titulo2{
+    width: 40%;
+    height: 20%;
+  }
+  .leyenda{
+    margin-bottom: 40px;
+    font-size: 15px;
+    margin-bottom: 5%;
+  }
+  .pie{
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 900px){
+  body{
+    width: 100%;
+  }
+  .titulo{
+    width: 75%;
+    height: 75%;
+  }
+  .titulo2{
+    width: 45%;
+    height: 20%;
+  }
+  .leyenda{
+    margin-bottom: 40px;
+    font-size: 15px;
+    margin-bottom: 5%;
+  }
+  .pie{
+    font-size: 20px;
+  }
+}
 @media screen and (max-width: 600px){
   body{
     width: 100%;
@@ -144,27 +186,7 @@ input.password{
     font-size: 11px;
   }
 }
-@media screen and (max-width: 900px){
-  body{
-    width: 100%;
-  }
-  .titulo{
-    width: 100%;
-    height: 100%;
-  }
-  .titulo2{
-    width: 45%;
-    height: 20%;
-  }
-  .leyenda{
-    margin-bottom: 40px;
-    font-size: 15px;
-    margin-bottom: 5%;
-  }
-  .pie{
-    font-size: 11px;
-  }
-}
+
 footer{
   text-align: center;
 }
