@@ -65,7 +65,7 @@ input.user
   background: url("../img/usuario_icono.png") no-repeat scroll 0 0 transparent;
   background-color: #E9E9E9;
     border: 1px solid #BFBFBF;
-    color: #BFBFBF;
+    color: #000000;
     padding: 5px 5px 5px 45px;
     width: 150px;
     background-size:20px 20px;
@@ -93,7 +93,7 @@ input.password{
   background: url("../img/contrasena_icono.png") no-repeat scroll 0 0 transparent;
   background-color: #E9E9E9;
     border: 1px solid #BFBFBF;
-    color: #BFBFBF;
+    color: #000000;
     padding: 5px 5px 5px 45px;
     width: 150px;
     background-size:20px 20px;
@@ -128,16 +128,41 @@ input.password{
     width: 100%;
   }
   .titulo{
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
   }
   .titulo2{
-    width: 38%;
-    height: 25%;
+    width: 45%;
+    height: 20%;
   }
   .leyenda{
+    margin-bottom: 40px;
     font-size: 15px;
     margin-bottom: 5%;
+  }
+  .pie{
+    font-size: 11px;
+  }
+}
+@media screen and (max-width: 900px){
+  body{
+    width: 100%;
+  }
+  .titulo{
+    width: 100%;
+    height: 100%;
+  }
+  .titulo2{
+    width: 45%;
+    height: 20%;
+  }
+  .leyenda{
+    margin-bottom: 40px;
+    font-size: 15px;
+    margin-bottom: 5%;
+  }
+  .pie{
+    font-size: 11px;
   }
 }
 footer{
