@@ -12,7 +12,7 @@
 .form {
   position: relative;
   z-index: 1;
-  background: #FFFFFF;
+  background: url(../img/contenedor.png) no-repeat center center fixed;
   max-width: 360px;
   margin: 0 auto 100px;
   padding: 45px;
@@ -122,4 +122,77 @@
 }
 .lt8 #wrapper h1{
 	color: #066A75;
+}
+.imagen{
+  width: 100%;
+}
+#digitos{
+   background: white;
+  border: 1px solid red;
+  font-size: 18px;
+  font-family: Arial, Verdana;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 70px;
+  -o-border-radius: 4px;
+  background: linear-gradient(left, #FFFFFF, #F7F9FA);
+  background: -moz-linear-gradient(left, #FFFFFF, #F7F9FA);
+  background: -webkit-linear-gradient(left, #FFFFFF, #F7F9FA);
+  background: -o-linear-gradient(left, #FFFFFF, #F7F9FA);
+}
+input#digitos
+{
+
+  background: url("../img/numero_icono.png") no-repeat scroll 0 0 transparent;
+  background-color: #E9E9E9;
+    border: 1px solid #BFBFBF;
+    color: #000000;
+    padding: 5px 5px 5px 45px;
+    width: 270px;
+    background-size:20px 20px;
+    background-position:10px 5px;
+}
+#numero{
+   background: white;
+  border: 1px solid red;
+  font-size: 18px;
+  font-family: Arial, Verdana;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 70px;
+  -o-border-radius: 4px;
+  background: linear-gradient(left, #FFFFFF, #F7F9FA);
+  background: -moz-linear-gradient(left, #FFFFFF, #F7F9FA);
+  background: -webkit-linear-gradient(left, #FFFFFF, #F7F9FA);
+  background: -o-linear-gradient(left, #FFFFFF, #F7F9FA);
+}
+input#numero
+{
+
+  background: url("../img/numero_icono.png") no-repeat scroll 0 0 transparent;
+  background-color: #E9E9E9;
+    border: 1px solid #BFBFBF;
+    color: #000000;
+    padding: 5px 5px 5px 45px;
+    width: 270px;
+    background-size:20px 20px;
+    background-position:10px 5px;
+}
+#btn_enviar{
+   text-decoration: none;
+    padding: 8px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #472e30;
+    background-color: #ebbabf;
+    border-radius: 20px;
+    border: 2px solid #472e30;
 }

@@ -47,7 +47,7 @@ $datosUsuario=$sesion->datosUsuario();
 		<br>
 
 		<p><br></p>
-		<h1>Reporte de Activaciones</h1>
+		<h1 class="titulo1">Reporte de Activaciones</h1>
 	</div>
 	<?php
 			date_default_timezone_set('america/mexico_city');
@@ -56,7 +56,7 @@ $datosUsuario=$sesion->datosUsuario();
 	<div class= "fecha">
 		<article id='art1' class='col-lg-11 col-md-11 col-sm-11 col-xs-12'>
 		<form id="formulario">
-			<p><label for="fecha"> DE:
+			<label for="fecha" class="de"> DE:
 				<input type="date" name="fechainicio"  step="1" value="<?php echo date("Y-m-d");?>">
 			<input id="boton_enviar" method='post' type="submit">
 

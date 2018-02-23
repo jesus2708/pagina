@@ -1,4 +1,4 @@
-
+/*menu*/
 .container {
     margin-left: auto;
     margin-right: auto;
@@ -12,12 +12,30 @@
     margin-top: 30px;
     width: 95%;
 }
+.titulo1{
+    color: #BC7A87;
+}
+.de{
+    color: #BC7A87;
+}
 .fecha {
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
     width: 95%;
 
+}
+#boton_enviar{
+    text-decoration: none;
+    width: 25%;
+    max-height: 50px;
+    padding: 7px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #472e30;
+    background-color: #ebbabf;
+    border-radius: 20px;
+    border: 2px solid #472e30;
 }
 .tabla {
     margin-left: 40px;
@@ -38,8 +56,8 @@
     padding: 0;
 }
 #nav{
-    background-color: #F5F5F5;
-    border-bottom: 5px solid #333333;
+    background-color: #363434;
+    border-bottom: 5px solid #363434;
     float: left;
     margin-left: 1%;
     margin-right: 1%;
@@ -90,7 +108,7 @@
     white-space: normal;
 }
 #nav > li > a  , #nav-right{
-    color: #333333;
+    color: #878787;
     display: block;
     font-size: 1.3em;
     line-height: 49px;
@@ -98,11 +116,11 @@
     text-transform: uppercase;
 }
 #nav > li:hover > a, #nav > a:hover  {
-    background-color: #167F92;
+    background-color: #c7babe;
     color: #FFFFFF;
 }
 #nav li.active > a , #nav-right li.active > a {
-    background-color: #333333;
+    background-color: ##c7babe;
     color: #FFFFFF;
 }
 
@@ -122,7 +140,7 @@
     line-height: 20px;
 }
 #nav ul li a:hover {
-    color: #167F92;
+    color: #EBBABF;
 }
 #nav ul.subs > li > a {
     font-size: 1.3em;
@@ -141,7 +159,9 @@
 #nav ul.subs > li li:hover {
     padding-left: 15px;
 }
-
+.cerrar{
+    color: white;
+}
 /* responsive rules */
 @media all and (max-width : 980px) {
     #nav > li {

@@ -60,6 +60,7 @@ If you like this solution, you might also want to check out the 1.0 version:
   text-align: center;
   border-right: 1px solid #D9E4E6;
 }
+/*corlo de la linea que separa toda la tabla de reporte*/
 @media (min-width: 480px) {
   .responstable td {
     border: 1px solid #D9E4E6;

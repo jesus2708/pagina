@@ -67,7 +67,7 @@ $datosUsuario=$sesion->datosUsuario();
           } ?>
             <li ><a href="cambioPassword">Cuenta</a></li>
             <ul id="nav-right">
-              <li class="push-right"><a href="loginOut">Cerrar Sesion </a></li>
+              <li class="push-right"><a href="loginOut" class="cerrar">Cerrar Sesion </a></li>
 
             </ul>
       </ul>
@@ -76,7 +76,12 @@ $datosUsuario=$sesion->datosUsuario();
   <div class="login-page">
   <div class="form">
 
-  <h1><img src="img/atc1.png">ctivaChip</h1>
+  <img src="img/activachip_logoatc02.png" class="imagen">
+  <p>
+    <h3 class="leyenda">
+      Ingresa el numero
+    </h3>
+  </p>
 
     <form id="formulario" method='post'  autocomplete="off">
 
