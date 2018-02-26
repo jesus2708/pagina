@@ -85,7 +85,7 @@ $datosUsuario=$sesion->datosUsuario();
             } ?>
             <li class="active"><a href="">Cuenta</a></li>
             <ul id="nav-right">
-              <li class="push-right"><a href="loginOut">Cerrar Sesion </a></li>
+              <li class="push-right"><a href="loginOut" class="cerrar">Cerrar Sesion </a></li>
 
             </ul>
       </ul>
@@ -93,13 +93,18 @@ $datosUsuario=$sesion->datosUsuario();
   <div class="login-page">
   <div class="form">
 
-  <h1><img src="img/atc1.png">ctivaChip</h1>
+  <img src="img/activachip_logoatc02.png" class="imagen">
+  <p>
+    <h3 class="leyenda1">
+      Cambio de contraseña
+    </h3>
+  </p>
 
     <form id="formulario" method='post'  autocomplete="off">
       
       <input id="pwsOld" name="pwsOld" maxlength="15"  type="text" placeholder="Contraseña Actual" autofocus/>
-      <input id="digitos" name="digitos" maxlength="15"  type="text" placeholder="Nueva contraseña"/>
-      <input id="numero"  maxlength="15" name="numero" type="text" placeholder="Confirma nueva contraseña"/>
+      <input id="digitos1" name="digitos" maxlength="15"  type="text" placeholder="Nueva contraseña"/>
+      <input id="numero1"  maxlength="15" name="numero" type="text" placeholder="Confirma nueva contraseña"/>
 
       <!--<     -->
       <button id="btn_enviar" color = "black" onclick="puntero()">Aceptar</button>
@@ -192,7 +197,8 @@ $(function(){
 </body>
 <footer >
 Contacto: webmaster.atc.mx@gmail.com <br>
-Copyright© 2017-2018. Morpheus DSS
+Copyright© 2017-2018. Morpheus DSS<br>
+Numero de soporte: 4661472278
 </footer>
 </html>
 <?php

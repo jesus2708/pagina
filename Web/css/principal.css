@@ -123,6 +123,15 @@ input.password{
   line-height: 26.4px;
   color: #F4C4B7;
 }
+.leyenda1{
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 26.4px;
+  color: #F4C4B7;
+}
 @media screen and (max-width: 1400px){
   body{
     width: 100%;
@@ -138,6 +147,11 @@ input.password{
   .leyenda{
     margin-bottom: 40px;
     font-size: 15px;
+    margin-bottom: 5%;
+  }
+  .leyenda1{
+    margin-bottom: 40px;
+    font-size: 10px;
     margin-bottom: 5%;
   }
   .pie{
@@ -188,11 +202,18 @@ input.password{
 }
 
 footer{
+  font-family: sans-serif;
   text-align: center;
+  color: black;
 }
 .paginacion{
 	text-align: center;
 }
+.reporte h1, h4{
+  
+  color: #BC7A87;
+}
+
 
 
 

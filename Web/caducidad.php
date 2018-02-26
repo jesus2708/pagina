@@ -59,7 +59,7 @@ $result = reporteCaducidad($usuarioID,$inicio,$TAMANO_PAGINA);
           	} ?>
             <li ><a href="cambioPassword">Cuenta</a></li>
             <ul id="nav-right">
-              <li class="push-right"><a href="loginOut">Cerrar Sesion </a></li>
+              <li class="push-right"><a href="loginOut" class="cerrar">Cerrar Sesion </a></li>
 
 
             </ul>
@@ -156,7 +156,8 @@ $result = reporteCaducidad($usuarioID,$inicio,$TAMANO_PAGINA);
 <br>
 <br>
 Contacto: webmaster.atc.mx@gmail.com <br>
-Copyright© 2017-2018. Morpheus DSS
+Copyright© 2017-2018. Morpheus DSS<br>
+Numero de soporte: 4661472278
 </footer>
 </html>
 <?php

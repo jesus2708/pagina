@@ -126,6 +126,24 @@
 .imagen{
   width: 100%;
 }
+#digitos1{
+   background: white;
+  border: 1px solid red;
+  font-size: 18px;
+  font-family: Arial, Verdana;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 70px;
+  -o-border-radius: 4px;
+  background: linear-gradient(left, #FFFFFF, #F7F9FA);
+  background: -moz-linear-gradient(left, #FFFFFF, #F7F9FA);
+  background: -webkit-linear-gradient(left, #FFFFFF, #F7F9FA);
+  background: -o-linear-gradient(left, #FFFFFF, #F7F9FA);
+}
 #digitos{
    background: white;
   border: 1px solid red;
@@ -144,17 +162,47 @@
   background: -webkit-linear-gradient(left, #FFFFFF, #F7F9FA);
   background: -o-linear-gradient(left, #FFFFFF, #F7F9FA);
 }
-input#digitos
+input#digitos1
 {
 
-  background: url("../img/numero_icono.png") no-repeat scroll 0 0 transparent;
+  background: url("../img/usuario_icono.png") no-repeat scroll 0 0 transparent;
   background-color: #E9E9E9;
     border: 1px solid #BFBFBF;
     color: #000000;
-    padding: 5px 5px 5px 45px;
+    padding: 5px 5px 5px 35px;
     width: 270px;
     background-size:20px 20px;
     background-position:10px 5px;
+}
+input#digitos
+{
+
+  background: url("../img/usuario_icono.png") no-repeat scroll 0 0 transparent;
+  background-color: #E9E9E9;
+    border: 1px solid #BFBFBF;
+    color: #000000;
+    padding: 5px 5px 5px 35px;
+    width: 270px;
+    background-size:20px 20px;
+    background-position:10px 5px;
+}
+#numero1{
+   background: white;
+  border: 1px solid red;
+  font-size: 18px;
+  font-family: Arial, Verdana;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 70px;
+  -o-border-radius: 4px;
+  background: linear-gradient(left, #FFFFFF, #F7F9FA);
+  background: -moz-linear-gradient(left, #FFFFFF, #F7F9FA);
+  background: -webkit-linear-gradient(left, #FFFFFF, #F7F9FA);
+  background: -o-linear-gradient(left, #FFFFFF, #F7F9FA);
 }
 #numero{
    background: white;
@@ -174,14 +222,54 @@ input#digitos
   background: -webkit-linear-gradient(left, #FFFFFF, #F7F9FA);
   background: -o-linear-gradient(left, #FFFFFF, #F7F9FA);
 }
-input#numero
+input#numero1
 {
 
-  background: url("../img/numero_icono.png") no-repeat scroll 0 0 transparent;
+  background: url("../img/usuario_icono.png") no-repeat scroll 0 0 transparent;
   background-color: #E9E9E9;
     border: 1px solid #BFBFBF;
     color: #000000;
-    padding: 5px 5px 5px 45px;
+    padding: 5px 5px 5px 35px;
+    width: 270px;
+    background-size:20px 20px;
+    background-position:10px 5px;
+}
+input#numero
+{
+
+  background: url("../img/contrasena_icono.png") no-repeat scroll 0 0 transparent;
+  background-color: #E9E9E9;
+    border: 1px solid #BFBFBF;
+    color: #000000;
+    padding: 5px 5px 5px 35px;
+    width: 270px;
+    background-size:20px 20px;
+    background-position:10px 5px;
+}
+#pwsOld{
+  background: white;
+  border: 1px solid red;
+  font-size: 18px;
+  font-family: Arial, Verdana;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 70px;
+  -o-border-radius: 4px;
+  background: linear-gradient(left, #FFFFFF, #F7F9FA);
+  background: -moz-linear-gradient(left, #FFFFFF, #F7F9FA);
+  background: -webkit-linear-gradient(left, #FFFFFF, #F7F9FA);
+  background: -o-linear-gradient(left, #FFFFFF, #F7F9FA);
+}
+input#pwsOld{
+  background: url("../img/usuario_icono.png") no-repeat scroll 0 0 transparent;
+  background-color: #E9E9E9;
+    border: 1px solid #BFBFBF;
+    color: #000000;
+    padding: 5px 5px 5px 35px;
     width: 270px;
     background-size:20px 20px;
     background-position:10px 5px;
